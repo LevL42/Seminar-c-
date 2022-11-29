@@ -68,7 +68,7 @@ void Cub(int n)
     int count = 1;
     while (count <= n)
     {
-        summ = count * 3;
+        summ = count * count * count;
         Console.WriteLine($"Таблица кубов {summ} ");
         count++;
     }
